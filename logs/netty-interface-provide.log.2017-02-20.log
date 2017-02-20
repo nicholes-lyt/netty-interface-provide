@@ -1,0 +1,9 @@
+2017-02-20 17:27:05.060 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
+2017-02-20 17:27:05.065 [main] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet '': initialization started
+2017-02-20 17:27:05.101 [main] INFO  o.s.web.context.support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace '-servlet': startup date [Mon Feb 20 17:27:05 GMT+08:00 2017]; root of context hierarchy
+2017-02-20 17:27:05.164 [main] INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/C:/JavaDev/workspace/vdf-maven-17120/netty-interface-provide/target/classes/applicationContext.xml]
+2017-02-20 17:27:05.438 [main] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1e2b1495: defining beans [getController,postController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-02-20 17:27:05.506 [main] INFO  o.s.w.s.m.a.DefaultAnnotationHandlerMapping - Mapped URL path [/soa/get.htm] onto handler 'getController'
+2017-02-20 17:27:05.506 [main] INFO  o.s.w.s.m.a.DefaultAnnotationHandlerMapping - Mapped URL path [/soa/post.htm] onto handler 'postController'
+2017-02-20 17:27:05.669 [main] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet '': initialization completed in 603 ms
+2017-02-20 17:27:06.195 [main] WARN  io.netty.bootstrap.ServerBootstrap - Unknown channel option 'SO_KEEPALIVE' for channel '[id: 0x41b066d1]'
