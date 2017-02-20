@@ -1,5 +1,5 @@
 
-1、通过netty-httpserver服务发布spring restful接口服务
+1、通过netty-httpserver发布spring restful接口服务
 
 2、其他项目添加依赖，pom文件添加如下
 	
